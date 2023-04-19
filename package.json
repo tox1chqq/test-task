@@ -1,0 +1,28 @@
+{
+  "name": "message-split",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "format": "npx prettier --write .",
+    "test": "jest"
+  },
+  "keywords": [
+    "Test",
+    "task"
+  ],
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1"
+  },
+  "author": "Anton Storozhenko",
+  "license": "ISC"
+}
